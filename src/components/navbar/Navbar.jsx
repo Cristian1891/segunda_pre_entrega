@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
-import Logo from "../Logo/Logo";
+import Logo from "../logo/Logo";
 import CartWidget from "../cartwidget/CartWidget";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
