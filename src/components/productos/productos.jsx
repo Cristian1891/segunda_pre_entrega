@@ -11,6 +11,8 @@ const Productos = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate(); // Hook para redireccionar
 
+  console.log("Hola");
+
   useEffect(() => {
     setLoading(true);
     setError(null); // Resetear error cuando se cambia la categoría

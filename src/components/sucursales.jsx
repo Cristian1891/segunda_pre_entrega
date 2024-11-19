@@ -2,6 +2,7 @@ import React from 'react';
 import './Sucursales.css'; 
 
 function Sucursales() {
+  console.log("Hola");
   return (
     <div className="sucursales-container">
       <h1 className='titulo_blanco '>Sucursales de AudioMaster en Uruguay</h1>

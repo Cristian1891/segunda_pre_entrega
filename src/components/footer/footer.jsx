@@ -4,6 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaTelegram } from 'reac
 import './Footer.css';
 
 function Footermp() {
+  console.log("Hola");
   return (
     <footer className="footer">
       <div className="footer-section">

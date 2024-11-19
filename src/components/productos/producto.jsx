@@ -3,7 +3,10 @@ import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; // Link para redirección
 import "./styles.css";
 
+console.log("Hola");
+
 const Producto = ({ id, nombre, descripcion, precio, imagen }) => (
+  
   <Card className="producto-card mb-4">
     {/* Imagen de producto */}
     <Card.Img variant="top" src={imagen} alt={nombre} className="producto-imagen" />
