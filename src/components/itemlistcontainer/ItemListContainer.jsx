@@ -1,5 +1,5 @@
 import React from 'react';
-import Greetings from '../greetings/greetings';
+import Greetings from '../greetings/Greetings';
 import { Container, Row, Col } from 'react-bootstrap';
 import './ItemListContainer.css';
 

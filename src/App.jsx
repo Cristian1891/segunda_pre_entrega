@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavScrollExample from './components/navbar/Navbar';
-import Sucursales from './components/sucursales.jsx';
+import Sucursales from './components/Sucursales.jsx';
 import NoPage from './components/NoPage.jsx';
 import Nosotros from './components/Nosotros.jsx';
 import Contacto from './components/Contacto.jsx';
-import Productos from './components/productos/productos.jsx';
+import Productos from './components/productos/Productos.jsx';
 import ItemListContainer from './components/itemlistcontainer/ItemListContainer';
-import Footer from './components/footer/Footer'; 
+import Footer from './components/footer/Footer.jsx'; 
 import DetalleProducto from './components/DetalleProducto.jsx';
 
 function App() {

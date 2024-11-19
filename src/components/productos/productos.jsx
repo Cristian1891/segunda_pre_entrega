@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Row, Col, Spinner } from 'react-bootstrap'; 
 import productos from "../arrayproductos";
-import Producto from "./producto"; 
+import Producto from "./Producto"; 
 
 const Productos = () => {
   const { categoria } = useParams();  // Obtener la categoría desde la URL
